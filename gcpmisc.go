@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-func getProjectId() (string, error) {
+func GetProjectId() (string, error) {
 	// Creates http client object
 	var client http.Client
 
