@@ -12,7 +12,7 @@ func GetProjectId() (string, error) {
 	// Creates the request
 	req, err := http.NewRequest(
 		"GET",
-		"http://metadata.google.internal/computeMetadata/v1/project/projectid",
+		"http://metadata.google.internal/computeMetadata/v1/project/project-id",
 		nil,
 	)
 
