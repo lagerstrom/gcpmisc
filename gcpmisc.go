@@ -17,7 +17,7 @@ func GetProjectId() (string, error) {
 	)
 
 	// Adds this HTTP header otherwise google will give you an error.
-	req.Header.Add("MetadataFlavor", "Google")
+	req.Header.Add("Metadata-Flavor", "Google")
 
 	// Makes the HTTP request
 	resp, err := client.Do(req)
